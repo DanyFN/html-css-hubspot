@@ -17,6 +17,7 @@ header{
   margin: auto;
   width: 60%;
   height: 100%;
+  position: relative;
 }
 
 .header-sinistro, .header-destro{
@@ -73,9 +74,9 @@ header{
 
 /*INIZIO SUB-HEADER  */
 .sub-header{
-width: 100%;
-height: 100px;
-background-color: white;
+  width: 100%;
+  height: 100px;
+  background-color: white;
 }
 
 
@@ -111,6 +112,64 @@ background-color: white;
 
 }
 /*FINE SUB-HEADER  */
+
+
+/* GET */
+
+.get{
+
+  width: 100%;
+  height: 500px;
+  border-bottom: 3px solid black;
+  background-image: linear-gradient(to right, #0093bc, #7fd9f4);
+  border: 1px solid black;
+  position: relative;
+
+}
+
+
+.text-container {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-container2{
+  color: white;
+}
+
+
+.text-container2 h1{
+  font-size: 60px;
+}
+
+.text-container2 p{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.gethub{
+
+  font-size: 30px;
+  background-color: white;
+  color: #14225b;
+  padding: 18px;
+  text-decoration: none;
+  line-height: 100px;
+
+
+}
+
+/* FINE GET */
+
+
+
+
+
+
+
+
 
 
 
