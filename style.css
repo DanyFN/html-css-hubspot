@@ -135,32 +135,25 @@ header{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.text-container2{
   color: white;
 }
 
-
-.text-container2 h1{
+.text-container h1{
   font-size: 60px;
 }
 
-.text-container2 p{
+.text-container p{
   font-size: 20px;
   padding-top: 20px;
 }
 
 .gethub{
-
   font-size: 30px;
   background-color: white;
   color: #14225b;
   padding: 18px;
   text-decoration: none;
   line-height: 100px;
-
-
 }
 
 /* FINE GET */
@@ -208,6 +201,14 @@ header{
 .features{
   /* height: 400px; */
   width: 100%;
+  margin: 40px 0px;
+  border: 1px solid black;
+}
+
+.features::after{
+  clear: both;
+  content:"";
+  display:table;
 }
 .learn{
   width: 30%;
@@ -219,26 +220,26 @@ header{
 .learnimg{
   width: 60%;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
 
 }
 
 .learnimg img{
   width: 100%;
   height: auto;
-
-
 }
 
 .buttonlearn{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: orange;
-  padding: 0px 50px;
   margin-top: 20px;
-
+  display: block;
+  text-align: center;
 }
+.buttonlearn button{
+  padding: 10px 50px;
+  background-color: rgb(245, 72, 50);
+  color: white;
+}
+
 .freehub{
   width: 50%;
   height: 100%;
@@ -253,9 +254,27 @@ header{
   padding-bottom: 20px;
 }
 
+/*FINE LEARN FREEHUB  */
 
+/*INIZIO COLONNE  */
 
+.colonne{
+  width: 100%;
+  height: 400px;
 
+}
+.colonna{
+  width: 30%;
+  height: 100%;
+  float: left;
+  border: 1px solid black;
+}
+
+.marginlr{
+  margin: 0% 5%;
+}
+
+.
 
 /*FOOTER  */
 
