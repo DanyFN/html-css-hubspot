@@ -114,11 +114,13 @@ header{
 /*FINE SUB-HEADER  */
 
 
+
+
 /* GET */
 
 .get{
 
-  width: 100%;
+  /* width: 100%; */
   height: 500px;
   border-bottom: 3px solid black;
   background-image: linear-gradient(to right, #0093bc, #7fd9f4);
@@ -165,9 +167,91 @@ header{
 
 
 
+/* INIZIO RUBIK  */
+
+.rubik{
+  /* width: 100%; */
+  background-color: white;
+}
+
+.rubikimg{
+  width: 30%;
+  margin: 0 auto;
+
+}
+
+.rubikimg img{
+  width: 100%;
+  height: auto;
+}
+
+.power{
+  font-size: 40px;
+  text-align: center;
+  color: #14225b;
+}
+
+.hub{
+  font-size: 20px;
+  text-align: center;
+  color: #14225b;
+}
+
+.padding{
+  padding: 50px 0px;
+}
+
+/* FINE RUBIK */
 
 
+/*INIZIO FEATURES  */
+.features{
+  /* height: 400px; */
+  width: 100%;
+}
+.learn{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  float: left;
 
+}
+.learnimg{
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.learnimg img{
+  width: 100%;
+  height: auto;
+
+
+}
+
+.buttonlearn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: orange;
+  padding: 0px 50px;
+  margin-top: 20px;
+
+}
+.freehub{
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  float: left;
+  color: #14225b;
+
+}
+
+.freehub h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
 
 
 
