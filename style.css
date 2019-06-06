@@ -349,7 +349,7 @@ header{
 }
 
 .logos{
-  border-bottom: 1px solid white;
+
   height: 200px;
   width: 25%;
   float: left;
@@ -358,6 +358,10 @@ header{
 
 .border-right{
   border-right: 1px solid white;
+}
+
+.border-bottom{
+  border-bottom: 1px solid white;
 }
 
 .logos h1{
